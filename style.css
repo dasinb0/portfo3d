@@ -16,25 +16,37 @@ html,body{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #e0e0e0;
+    background-image: url('img/lineas.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #page1{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #e0e0e0;
+    background-image: url('img/lineas.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #page2{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #e0e0e0;
+    background-image: url('img/lineas.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #page3{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #e0e0e0;
+    background-image: url('img/lineas.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 canvas{
     position: relative;
@@ -173,6 +185,10 @@ canvas{
     font-size: 70px;
 }
 
+.text {
+    margin-top: 50px;
+}
+
 /* Info de contacto*/
 #contact-info {
     position: absolute;
@@ -200,7 +216,6 @@ canvas{
 
 /* Estilos para el footer */
 footer {
-    background-color: #e0e0e0;
     padding: 20px;
     text-align: center;
     font-family: gilroy;
