@@ -3,7 +3,7 @@ function locomotive() {
 
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
-    smooth: true ,
+    smooth: true,
   });
   locoScroll.on("scroll", ScrollTrigger.update);
 
@@ -352,6 +352,313 @@ function files(index) {
   return data.split("\n")[index];
 }
 
+//AVATAR MIO ANIMADO - COMMING SOON
+// function files(index) {
+//   var data = `
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatarSinFondo.png
+//      img/avatar1.png
+//      img/avatar2.png
+//      img/avatar3.png
+//      img/avatar4.png
+//      img/avatar5.png
+//      img/avatar6.png
+//      img/avatar7.png
+//      img/avatar8.png
+//      img/avatar9.png
+//      img/avatar10.png 
+//      img/avatar11.png
+//      img/avatar12.png
+//      img/avatar13.png
+//      img/avatar14.png
+//      img/avatar15.png
+//      img/avatar16.png
+//      img/avatar17.png
+//      img/avatar18.png
+//      img/avatar19.png
+//      img/avatar20.png
+//      img/avatar21.png
+//      img/avatar22.png
+//      img/avatar23.png
+//      img/avatar24.png
+//      img/avatar25.png
+//      img/avatar26.png
+//      img/avatar27.png
+//      img/avatar28.png
+//      img/avatar29.png
+//      img/avatar30.png
+//      img/avatar31.png
+//      img/avatar32.png
+//      img/avatar33.png
+//      img/avatar34.png
+//      img/avatar0.png
+//      img/avatar1.png
+//      img/avatar2.png
+//      img/avatar3.png
+//      img/avatar4.png
+//      img/avatar5.png
+//      img/avatar6.png
+//      img/avatar7.png
+//      img/avatar8.png
+//      img/avatar9.png
+//      img/avatar10.png
+//      img/avatar11.png
+//      img/avatar12.png
+//      img/avatar13.png
+//      img/avatar14.png
+//      img/avatar15.png
+//      img/avatar16.png
+//      img/avatar17.png
+//      img/avatar18.png
+//      img/avatar19.png
+//      img/avatar20.png
+//      img/avatar21.png
+//      img/avatar22.png
+//      img/avatar23.png
+//      img/avatar24.png
+//      img/avatar25.png
+//      img/avatar26.png
+//      img/avatar27.png
+//      img/avatar28.png
+//      img/avatar29.png
+//      img/avatar30.png
+//      img/avatar31.png
+//      img/avatar32.png
+//      img/avatar33.png
+//      img/avatar34.png
+//      img/avatar0.png
+//      img/avatar1.png
+//      img/avatar2.png
+//      img/avatar3.png
+//      img/avatar4.png
+//      img/avatar5.png
+//      img/avatar6.png
+//      img/avatar7.png
+//      img/avatar8.png
+//      img/avatar9.png
+//      img/avatar10.png
+//      img/avatar11.png
+//      img/avatar12.png
+//      img/avatar13.png
+//      img/avatar14.png
+//      img/avatar15.png
+//      img/avatar16.png
+//      img/avatar17.png
+//      img/avatar18.png
+//      img/avatar19.png
+//      img/avatar20.png
+//      img/avatar21.png
+//      img/avatar22.png
+//      img/avatar23.png
+//      img/avatar24.png
+//      img/avatar25.png
+//      img/avatar26.png
+//      img/avatar27.png
+//      img/avatar28.png
+//      img/avatar29.png
+//      img/avatar30.png
+//      img/avatar31.png
+//      img/avatar32.png
+//      img/avatar33.png
+//      img/avatar34.png
+//      img/avatar0.png
+//      img/avatar1.png
+//      img/avatar2.png
+//      img/avatar3.png
+//      img/avatar4.png
+//      img/avatar5.png
+//      img/avatar6.png
+//      img/avatar7.png
+//      img/avatar8.png
+//      img/avatar9.png
+//      img/avatar10.png
+//      img/avatar11.png
+//      img/avatar12.png
+//      img/avatar13.png
+//      img/avatar14.png
+//      img/avatar15.png
+//      img/avatar16.png
+//      img/avatar17.png
+//      img/avatar18.png
+//      img/avatar19.png
+//      img/avatar20.png
+//      img/avatar21.png
+//      img/avatar22.png
+//      img/avatar23.png
+//      img/avatar24.png
+//      img/avatar25.png
+//      img/avatar26.png
+//      img/avatar27.png
+//      img/avatar28.png
+//      img/avatar29.png
+//      img/avatar30.png
+//      img/avatar31.png
+//      img/avatar32.png
+//      img/avatar33.png
+//      img/avatar34.png
+//      img/avatar0.png
+//      img/avatar1.png
+//      img/avatar2.png
+//      img/avatar3.png
+//      img/avatar4.png
+//      img/avatar5.png
+//      img/avatar6.png
+//      img/avatar7.png
+//      img/avatar8.png
+//      img/avatar9.png
+//      img/avatar10.png
+//      img/avatar11.png
+//      img/avatar12.png
+//      img/avatar13.png
+//      img/avatar14.png
+//      img/avatar15.png
+//      img/avatar16.png
+//      img/avatar17.png
+//      img/avatar18.png
+//      img/avatar19.png
+//      img/avatar20.png
+//      img/avatar21.png
+//      img/avatar22.png
+//      img/avatar23.png
+//      img/avatar24.png
+//      img/avatar25.png
+//      img/avatar26.png
+//      img/avatar27.png
+//      img/avatar28.png
+//      img/avatar29.png
+//      img/avatar30.png
+//      img/avatar31.png
+//      img/avatar32.png
+//      img/avatar33.png
+//      img/avatar34.png
+//      img/avatar0.png
+//      img/avatar1.png
+//      img/avatar2.png
+//      img/avatar3.png
+//      img/avatar4.png
+//      img/avatar5.png
+//      img/avatar6.png
+//      img/avatar7.png
+//      img/avatar8.png
+//      img/avatar9.png
+//      img/avatar10.png
+//      img/avatar11.png
+//      img/avatar12.png
+//      img/avatar13.png
+//      img/avatar14.png
+//      img/avatar15.png
+//      img/avatar16.png
+//      img/avatar17.png
+//      img/avatar18.png
+//      img/avatar19.png
+//      img/avatar20.png
+//      img/avatar21.png
+//      img/avatar22.png
+//      img/avatar23.png
+//      img/avatar24.png
+//      img/avatar25.png
+//      img/avatar26.png
+//      img/avatar27.png
+//      img/avatar28.png
+//      img/avatar29.png
+//      img/avatar30.png
+//      img/avatar31.png
+//      img/avatar32.png
+//      img/avatar33.png
+//      img/avatar34.png
+//      img/avatar0.png
+//      img/avatar1.png
+//      img/avatar2.png
+//      img/avatar3.png
+//      img/avatar4.png
+//      img/avatar5.png
+//      img/avatar6.png
+//      img/avatar7.png
+//      img/avatar8.png
+//      img/avatar9.png
+//      img/avatar10.png
+//      img/avatar11.png
+//      img/avatar12.png
+//      img/avatar13.png
+//      img/avatar14.png
+//      img/avatar15.png
+//      img/avatar16.png
+//      img/avatar17.png
+//      img/avatar18.png
+//      img/avatar19.png
+//      img/avatar20.png
+//      img/avatar21.png
+//      img/avatar22.png
+//      img/avatar23.png
+//      img/avatar24.png
+//      img/avatar25.png
+//      img/avatar26.png
+//      img/avatar27.png
+//      img/avatar28.png
+//      img/avatar29.png
+//      img/avatar30.png
+//      img/avatar31.png
+//      img/avatar32.png
+//      img/avatar33.png
+//      img/avatar34.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      img/avatarFinal1.png
+//      `;
+//   return data.split("\n")[index];
+// }
+
 const frameCount = 300;
 
 const images = [];
@@ -390,10 +697,10 @@ function scaleImage(img, ctx) {
   var hRatio = canvas.width / img.width;
   var vRatio = canvas.height / img.height;
   var ratio = Math.max(hRatio, vRatio);
-  
-  
+
+
   ratio = Math.min(ratio, 1);
-  
+
   var centerShift_x = (canvas.width - img.width * ratio) / 2;
   var centerShift_y = (canvas.height - img.height * ratio) / 2;
   ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -420,30 +727,30 @@ ScrollTrigger.create({
 
 
 
-gsap.to("#page1",{
-  scrollTrigger:{
-    trigger:`#page1`,
-    start:`top top`,
-    end:`bottom top`,
-    pin:true,
-    scroller:`#main`
+gsap.to("#page1", {
+  scrollTrigger: {
+    trigger: `#page1`,
+    start: `top top`,
+    end: `bottom top`,
+    pin: true,
+    scroller: `#main`
   }
 })
-gsap.to("#page2",{
-  scrollTrigger:{
-    trigger:`#page2`,
-    start:`top top`,
-    end:`bottom top`,
-    pin:true,
-    scroller:`#main`
+gsap.to("#page2", {
+  scrollTrigger: {
+    trigger: `#page2`,
+    start: `top top`,
+    end: `bottom top`,
+    pin: true,
+    scroller: `#main`
   }
 })
-gsap.to("#page3",{
-  scrollTrigger:{
-    trigger:`#page3`,
-    start:`top top`,
-    end:`bottom top`,
-    pin:true,
-    scroller:`#main`
+gsap.to("#page3", {
+  scrollTrigger: {
+    trigger: `#page3`,
+    start: `top top`,
+    end: `bottom top`,
+    pin: true,
+    scroller: `#main`
   }
 })
